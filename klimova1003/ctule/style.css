@@ -1,0 +1,52 @@
+body{
+    display: flex;
+}
+.photo{
+    width: 120px;
+    height: 120px;
+}
+
+.button{
+    border: 2px;
+    font-size: 128px;
+    margin: 30px;
+}
+
+#no{
+    color: rgb(175, 22, 22);
+    text-decoration: none;
+    border: 2px solid rgb(175, 22, 22);
+}
+
+#ye{
+    color: rgb(48, 175, 22);
+    text-decoration: none;
+    border: 2px solid rgb(48, 175, 22);
+}
+
+#vop{
+    color: rgb(175, 160, 22);
+    text-decoration: none;
+    border: 2px solid rgb(175, 160, 22);
+}
+
+#no:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 2px solid rgb(175, 22, 22);
+    background-color: brown;
+}
+
+#ye:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 2px solid rgb(48, 175, 22);
+    background-color: rgb(31, 119, 13);
+}
+
+#vop:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 2px solid rgb(175, 160, 22);
+    background-color: rgb(209, 109, 15);
+}
